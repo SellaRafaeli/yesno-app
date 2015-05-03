@@ -2,6 +2,7 @@
 
 var React = require('react-native');
 var SearchPage = require('./SearchPage');
+var FBLogin    = require('./fb_login');
 
 var styles = React.StyleSheet.create({
   container: {
@@ -15,8 +16,8 @@ class YesNo extends React.Component {
       <React.NavigatorIOS
         style={styles.container}
         initialRoute={{
-          title: 'Property Finder',
-          component: SearchPage,
+          title: 'YesNo',
+          component: FBLogin,
         }}/>
     );
   }

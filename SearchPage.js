@@ -2,6 +2,7 @@
 
 var React = require('react-native');
 var SearchResults = require('./SearchResults');
+
 var {
   StyleSheet,
   Text,
@@ -153,7 +154,7 @@ class SearchPage extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.description}>
-          Search for houses to buy!
+          Search for hummus to buy! {Date()}
         </Text>
         <Text style={styles.description}>
           Search by place-name, postcode or search near your location.
