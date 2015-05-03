@@ -9,7 +9,7 @@ var styles = React.StyleSheet.create({
   }
 });
 
-class PropertyFinderApp extends React.Component {
+class YesNo extends React.Component {
   render() {
     return (
       <React.NavigatorIOS
@@ -29,4 +29,4 @@ class HelloWorld extends React.Component {
 }
 
 React.AppRegistry.registerComponent('YesNo',
-  function() { return PropertyFinderApp });
+  function() { return YesNo });
