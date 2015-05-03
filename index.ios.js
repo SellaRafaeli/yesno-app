@@ -28,5 +28,5 @@ class HelloWorld extends React.Component {
   }
 }
 
-React.AppRegistry.registerComponent('PropertyFinder',
+React.AppRegistry.registerComponent('YesNo',
   function() { return PropertyFinderApp });
